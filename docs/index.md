@@ -1,5 +1,18 @@
-# Welcome to UCMCDBS
+---
+layout: home
 
-United Computer & Management Consultancy (UCMC) is the branch of Gulf Business Machines (GBM) for Dubai and Northern Emirates.
-
-This site contains the public documentation for various technologies and services provided by UCMC.
+hero:
+  name: UCMCDBS
+  text: Documentation
+  tagline: Accelerate your digital journey
+  image:
+    src: /assets/images/dubai.svg
+    alt: Dubai
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /about/introduction
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/ucmcdbs
+---

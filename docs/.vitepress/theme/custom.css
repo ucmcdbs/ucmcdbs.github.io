@@ -1,4 +1,10 @@
-img.dark.logo, img.light.logo {
+.VPNav .VPImage {
   height: 48px;
   width: 108px;
+}
+
+.VPHero .VPImage {
+  height: 480px;
+  width: 480px;
+  max-width: 480px !important;
 }
