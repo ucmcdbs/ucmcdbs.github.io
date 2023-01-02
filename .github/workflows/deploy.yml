@@ -24,6 +24,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.VITEPRESS }}
+          deploy_key: ${{ secrets.VITEPRESS }}
           publish_dir: docs/.vitepress/dist
           cname: ucmcdbs.com
